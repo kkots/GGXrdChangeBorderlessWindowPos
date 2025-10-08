@@ -46,6 +46,7 @@ If you're running the game under Steam Proton on Ubuntu, this may work for you.
 You can use the `launch_GGXrdChangeBorderlessWindowPos_linux.sh` script to launch the Windows EXE under Wine in the same environment as GuiltyGearXrd.exe. In order to detect the right environment, Xrd must be running. So run it, then launch the script, then you will need to close the game in order to do the patching.
 
 ```bash
+cd the_directory_where_the_script_is_located  # make sure to do this, so it finds the mod's EXE file
 chmod u+x launch_GGXrdChangeBorderlessWindowPos_linux.sh
 ./launch_GGXrdChangeBorderlessWindowPos_linux.sh
 ```
