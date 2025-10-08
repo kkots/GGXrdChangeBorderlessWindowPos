@@ -12,7 +12,7 @@ With Guilty Gear Xrd Rev 2 this does not work, because:
     2) Windowed mode - cannot be resized or maximized;
     3) Fullscreen windowed mode - cannot be moved, resized, and always goes on the first, or main, monitor.
 
-If you draw the game's window while it's in Windowed mode to another mode, then switch to either Fullscreen or Windowed Fullscreen, it will go back to the first monitor.
+If you drag the game's window while it's in Windowed mode to another mmonitor, then switch to either Fullscreen or Windowed Fullscreen, it will go back to the first monitor.
 
 ## Description
 
