@@ -1,8 +1,22 @@
 # GGXrdChangeBorderlessWindowPos
 
+## What is the problem
+
+Usually, when you have multiple monitors, you can just un-maximize the window off the wrong monitor, drag it to the right one and maximimze it on that one. That usually works with most apps.
+
+With Guilty Gear Xrd Rev 2 this does not work, because:
+
+1) It has no maximize button;
+2) The built-in settings have drawbacks that prevent this:
+    1) Fullscreen mode - always goes fullscreen only on the first, or main, monitor;
+    2) Windowed mode - cannot be resized or maximized;
+    3) Fullscreen windowed mode - cannot be moved, resized, and always goes on the first, or main, monitor.
+
+If you draw the game's window while it's in Windowed mode to another mode, then switch to either Fullscreen or Windowed Fullscreen, it will go back to the first monitor.
+
 ## Description
 
-In multi-monitor setups, allows to change which monitor Guilty Gear Xrd appears on. For both fullscreen and windowed fullscreen modes.
+In multi-monitor setups, allows to change which monitor Guilty Gear Xrd Rev 2 appears on. For both fullscreen and windowed fullscreen modes.
 
 Work for version 2211 of the game (displayed in the bottom right corner right after starting the game).
 
