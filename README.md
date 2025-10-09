@@ -27,7 +27,9 @@ Work for version 2211 of the game (displayed in the bottom right corner right af
 3) Close the game;
 4) Launch the downloaded .EXE;
 5) Select which monitor the game should appear on by pressing "Move Xrd Here";
-6) You may close the mod. Launch the game and it should appear on that monitor.
+6) A file selection dialog will open. Navigate to the game's folder and select GuiltyGearXrd.exe. You may find where the game is installed by going to Steam - Library - right-click GUILTY GEAR Xrd REV 2 - Manage - Browse Local Files - Binaries\Win32.
+7) If everything goes well, the mod will say "Patching successful."
+8) You may close the mod. Launch the game and it should appear on the monitor you chose previously.
 
 You may patch the same EXE repeatedly without swapping to a backup each time.
 
