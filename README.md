@@ -37,7 +37,7 @@ Additionally, and you could've done this without this mod, you can go to the gam
 
 If you start having weird glitches like the fills of menu buttons going outside of their edges, set `MaxMultiSamples=1`.
 
-If you unplug one of your monitors, the game may no longer work if it's patched. In that case, patch it again or restore from a backup copy. Backup copies are saved automatically in the game's Binaries/Win32 folder every time the mod performs a patch.
+If you unplug one of your monitors, the game may no longer work if it's patched. If you change the order of your monitors or make a different monitor the main one, the game may start appearing in a completely wrong place. In that case, patch it again or restore from a backup copy. Backup copies are saved automatically in the game's Binaries/Win32 folder every time the mod performs a patch.
 
 ## How to run on Linux
 
