@@ -1,5 +1,11 @@
 # GGXrdChangeBorderlessWindowPos
 
+## BROKEN on Windows 11
+
+On Windows 11 patching the game with this patcher causes it to crash. See issue https://github.com/kkots/GGXrdChangeBorderlessWindowPos/issues/1
+
+I am unable to fix this as I won't be having a Windows 11.
+
 ## What is the problem
 
 Usually, when you have multiple monitors, you can just un-maximize the window off the wrong monitor, drag it to the right one and maximimze it on that one. That usually works with most apps.
