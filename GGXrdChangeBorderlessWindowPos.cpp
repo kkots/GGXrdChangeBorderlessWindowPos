@@ -258,6 +258,9 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 	DISPLAY_DEVICEW displayDevice;
 	displayDevice.cb = sizeof DISPLAY_DEVICEW;
 	DWORD iDevNum = 0;
+	// should use Direct3D->GetAdapterCount() and Direct3D->GetAdapterIdentifier(...) to enumerate devices and get char D3DADAPTER_IDENTIFIER9::DeviceName[32],
+	// then EnumDisplayMonitors and match WCHAR MONITORINFOEX::szDevice[32] to that (I know, I know, WCHAR vs char, but 'tis what it is)
+	// because when we override the Adapter argument of IDirect3D9::CreateDevice it should be a number obtained via/determined via/matching D3D9 API.
 	while (true) {
 		// query all display devices in the current session
 		BOOL enumResult = EnumDisplayDevicesW(NULL, iDevNum++, &displayDevice, 0);
